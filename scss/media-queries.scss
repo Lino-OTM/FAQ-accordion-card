@@ -1,0 +1,40 @@
+.FAQ-container {
+  align-items: flex-end;
+  padding: 6.8rem 10.8rem;
+  background: url("../images/illustration-woman-online-desktop.svg") no-repeat -8.2rem,
+    url("../images/bg-pattern-desktop.svg") no-repeat -58rem -30rem #fff;
+
+  &__desktop-illustration-box {
+    display: block;
+    position: absolute;
+    left: -9.3rem;
+    top: 20.5rem;
+  }
+
+  &__mobile-illustration,
+  &__mobile-illustration-background {
+    display: none;
+  }
+
+  &__title {
+    margin: 0 0 4rem;
+  }
+
+  &__questions-wrapper {
+    width: 33.5rem;
+    margin-bottom: 5rem;
+    text-align: start;
+  }
+
+  &__question {
+    font-size: 1.43rem;
+  }
+
+  &__answer {
+    line-height: 2rem;
+  }
+}
+
+.attribution {
+  text-align: start;
+}

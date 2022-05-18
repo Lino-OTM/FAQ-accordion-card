@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(#af67e9, #6565e7);
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FAQ-container {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2.3rem;
+  padding: 11rem 0.9rem 4.2rem;
+  width: 84%;
+  max-width: 92rem;
+  max-height: 50.9rem;
+}
+.FAQ-container__desktop-illustration, .FAQ-container__desktop-illustration-box, .FAQ-container__desktop-illustration-background {
+  display: none;
+}
+.FAQ-container__mobile-illustration {
+  width: 24rem;
+  position: absolute;
+  top: -11rem;
+}
+.FAQ-container__mobile-illustration-background {
+  position: absolute;
+  top: 0;
+}
+.FAQ-container__title {
+  font-size: 3.3rem;
+  margin-bottom: 2rem;
+}
+.FAQ-container__questions-wrapper {
+  width: 90%;
+  text-align: center;
+}
+.FAQ-container__question {
+  font-size: 1.31rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.7rem 0;
+  text-decoration: none;
+  color: #1d1e35;
+}
+.FAQ-container__question:hover {
+  color: #f47c57;
+  cursor: pointer;
+}
+.FAQ-container__question:focus + .FAQ-container__answer {
+  display: block;
+}
+.FAQ-container__question:focus .FAQ-container__arrow {
+  transform: rotate(180deg);
+}
+.FAQ-container__question:focus {
+  font-weight: 700;
+}
+.FAQ-container__answer {
+  transition: all 500s ease;
+  display: none;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #787887;
+  animation: slide-in-top 500ms;
+}
+
+hr {
+  height: 1px;
+  background-color: #e7e7e9;
+  border: none;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: #f47c57;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
