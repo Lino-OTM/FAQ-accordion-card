@@ -6,7 +6,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ![](/design/desktop-preview.jpg)
 
-Link:
+Link: https://lino-otm.github.io/FAQ-accordion-card/
 
 ### Built with:
 
@@ -16,3 +16,4 @@ Link:
 
 - Also used normalize.css library to reset the styles.
 
+* The original challenge suggested the use of JS.
